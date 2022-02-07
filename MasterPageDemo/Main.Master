@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="MasterPageDemo.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="CSSFolder/StyleSheet1.css" rel="stylesheet">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+        <nav id="nav1">
+            <ul>
+                <li><a href="Home.aspx">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+        </nav>
+        </div>
+        <aside>
+            <a href="Insert_Product.aspx"><p>Insert Record</p></a>
+            <a href="Update.aspx"><p>Update Record</p></a>
+            <a href="Delete1.aspx"><p>Delete Record</p></a>
+            <a href="Retrive.aspx"><p>Retrive Record</p></a>
+        </aside>
+        <div id="ContentPlaceHolder2">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+       
+        <footer>
+            <h3>Copyright 2022 Pankj Dhakad</h3>
+        </footer>
+
+    </form>
+</body>
+</html>

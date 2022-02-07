@@ -1,0 +1,44 @@
+﻿body {
+}
+nav{
+    background-color:antiquewhite;
+}
+a{
+    text-decoration:none;
+}
+li {
+    display: inline;
+    padding-left: 10px;
+    
+}
+aside{
+    background-color: gainsboro;
+    width:20%;
+    height:287px;
+    text-align:center;
+    padding-bottom:20%;
+    float:left;
+    min-height:200px;
+}
+li a:hover{
+    background-color:aquamarine;
+    color:black;
+}
+footer{
+    border-top:dotted 1px black;
+    text-align:center;
+    background-color:bisque;
+    clear:both;
+}
+#ContentPlaceHolder2{
+    float:right;
+    width:75%;
+    border:1px solid black;
+    padding:20px;
+    height:auto;
+}
+#div1{
+    margin-left:40%;;
+    background-color:chartreuse;
+    width:300px;
+}
